@@ -111,10 +111,13 @@ i.MX6ULL 功能结构图，如下所示：
 
 ## ART-Pi Smart SDK 软件包资源
 
-- 下载并解压最新的 ART-Pi Smart SDK 软件包：sdk_art_pi_smart
-- rt-smart 采用的工具链为：arm-linux-musleabi 工具链
-- 此  SDK 包除了包括 RT-Samrt 内核源码和用户  APP 之外，同时也包含了所需要交叉工具链（包括 Linux 版和 Windows 版）
--  ART-Pi Smart SDK 软件包结构框图，如下所示。其中，Kernel 部份仅包含一个 BSP：imx6ull-artpi-smart
+- 通过 [ART-Pi-Smart SDK 仓库](https://gitee.com/rtthread/ART-Pi-smart) （Gitee）下载最新的 ART-Pi Smart SDK 软件包
+- ART-Pi Smart SDK 软件包结构框图，如下所示。其中，Kernel 部份仅包含一个 BSP：imx6ull-artpi-smart
+- 工具链的下载和安装
+  - rt-smart 采用的工具链为：arm-linux-musleabi 工具链
+  - 需要用户自行通过下面网址下载 Linux版本或 Windows 版本的工具链
+  - 链接: https://pan.baidu.com/s/1p7PRhV3dTGIb7hxv34YWYw 提取码: ndxq 
+  - 将下载下来的工具链，解压到指定的路径 /rt-smart/tools/gnu_gcc/ 下面
 
 ![rt-smart SDK 软件包结构框图](figures/rt-smart_SDK_软件包结构框图.drawio.png)
 
@@ -219,7 +222,7 @@ i.MX6ULL 功能结构图，如下所示：
 - Windows 下，从 RT-Thread 官网下载 Env 工具：https://www.rt-thread.org/page/download.html
 - Env 用户手册（准备工具、使用方法）： https://www.rt-thread.org/document/site/#/development-tools/env/env
 - Env 工具集成了编译构建环境（scons）、图形化系统配置（menuconfig）及软件包管理功能等工具
-- 下载并解压最新的 ART-Pi Smart SDK 软件包：sdk_art_pi_smart
+- 通过 [ART-Pi-Smart SDK 仓库](https://gitee.com/rtthread/ART-Pi-smart) （Gitee）下载最新的 ART-Pi Smart SDK 软件包
 
 ## 代码编译
 
@@ -503,7 +506,7 @@ msh /root/bin>hello world!
   Python 3.8.10
   ```
 
-- 在 Linux 环境下，下载并解压最新的 ART-Pi Smart SDK 软件包：sdk_art_pi_smart
+- 在 Linux 环境下，通过 [ART-Pi-Smart SDK 仓库](https://gitee.com/rtthread/ART-Pi-smart) （Gitee）下载最新的 ART-Pi Smart SDK 软件包
 
   ⚠️⚠️⚠️由于 Linux 环境和 Windows 环境的区别，请不要把 Windows 下使用过（解压过）的 SDK 软件包复制到 Linux 下去运行。请直接下载 SDK 压缩包到 Linux 下去解压并运行。
 

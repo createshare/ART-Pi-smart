@@ -4,7 +4,7 @@
         // {
         //     "label": "clean",
         //     "type": "shell",
-        //     "command": "./env.bat\nscons -c",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\n./smart-env.bat\npopd\nscons -c",
         //     "args":[
 
         //     ]
@@ -12,7 +12,7 @@
         //  {
         //     "label": "build",
         //     "type": "shell",
-        //     "command": "./env.bat\nscons",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\n./smart-env.bat\npopd\nscons",
         //     "args":[
 
         //     ],

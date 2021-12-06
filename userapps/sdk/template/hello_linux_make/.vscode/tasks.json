@@ -4,7 +4,7 @@
         // {
         //     "label": "clean",
         //     "type": "shell",
-        //     "command": "source env.sh\nmake clean",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\nmake clean",
         //     "args":[
 
         //     ]
@@ -12,7 +12,7 @@
         //  {
         //     "label": "build",
         //     "type": "shell",
-        //     "command": "source env.sh\nmake",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\nmake",
         //     "args":[
 
         //     ],

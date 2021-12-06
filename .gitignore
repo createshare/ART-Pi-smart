@@ -2,10 +2,13 @@
 *.pyc
 *.map
 *.dblite
-
+*.elf
+*.bin
 *.hex
+*.img
+*.imx
 *.axf
-
+*.exe
 *.pdb
 *.idb
 *.ilk
@@ -22,8 +25,10 @@ documentation/html
 *.a
 *.i
 *.d
+userapps/sdk
 userapps/root
 tools/kconfig-frontends/kconfig-mconf
+tools/gnu_gcc
 cconfig.h
 GPUCache
 
@@ -36,7 +41,6 @@ tags
 
 
 cromfs_data.c
-
 
 *.dblite
 *.dbsqlite
