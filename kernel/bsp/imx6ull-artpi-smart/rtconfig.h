@@ -267,6 +267,11 @@
 
 /* multimedia packages */
 
+/* LVGL: powerful and easy-to-use embedded GUI library */
+
+
+/* u8g2: a monochrome graphic library */
+
 
 /* tools packages */
 
@@ -278,9 +283,6 @@
 
 /* Micrium: Micrium software products porting for RT-Thread */
 
-#define PKG_USING_LWEXT4
-#define RT_USING_DFS_LWEXT4
-#define PKG_USING_LWEXT4_LATEST_VERSION
 
 /* peripheral libraries and drivers */
 
@@ -289,7 +291,6 @@
 
 
 /* miscellaneous packages */
-
 
 /* samples: kernel and components samples */
 
