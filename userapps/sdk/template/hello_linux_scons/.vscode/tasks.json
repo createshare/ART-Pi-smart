@@ -4,13 +4,13 @@
         // {
         //     "label": "clean",
         //     "type": "shell",
-        //     "command": "source env.sh\nscons -c",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\nscons -c",
         //     "args": []
         // },
         // {
         //     "label": "build",
         //     "type": "shell",
-        //     "command": "source env.sh\nscons",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\nscons",
         //     "args": [],
         //     "dependsOn": [
         //         "clean"

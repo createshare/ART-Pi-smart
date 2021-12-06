@@ -4,7 +4,7 @@
         // {
         //     "label": "cmake",
         //     "type": "shell",
-        //     "command": "source env.sh\ncd build\ncmake ..",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\ncmake ..",
         //     "args":[
 
         //     ],
@@ -12,7 +12,7 @@
         // {
         //     "label": "clean",
         //     "type": "shell",
-        //     "command": "source env.sh\ncd build\nmake clean",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\nmake clean",
         //     "args":[
 
         //     ],
@@ -21,7 +21,7 @@
         //  {
         //     "label": "build",
         //     "type": "shell",
-        //     "command": "source env.sh\ncd build\nmake",
+        //     "command": "pushd ${config:RT-Thread Smart.SDK ROOT}\nsource smart-env.sh\npopd\nmake",
         //     "args":[
 
         //     ],
