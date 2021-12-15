@@ -15,9 +15,6 @@
 #include <board.h>
 #include "msh.h"
 
-#ifdef PKG_USING_UDBD
-#include <udbd.h>
-#endif
 
 int main(void)
 {
