@@ -35,15 +35,16 @@ ART-Pi smart  支持 Windows 和 Linux 开发环境，及配套的 VSCode 开发
 
 ## ART-Pi Smart 交流平台
 
-ART-Pi  是一个开源创意硬件平台，期待有更多的小伙伴能一起发现更多的乐趣，在使用过程中若您有任何的想法和建议，建议您通过以下方式来联系到我们。
+ART-Pi  Smart 是一个开源创意硬件平台，期待有更多的小伙伴能一起发现更多的乐趣，在使用过程中若您有任何的想法和建议，建议您通过以下方式来联系到我们。
 
-ART-Pi Smart [主页](https://art-pi.gitee.io/smart-website/)。
+- ART-Pi Smart [主页](https://art-pi.gitee.io/smart-website/)
 
-ART-Pi Smart SDK [Gitee 仓库 ](https://gitee.com/rtthread/ART-Pi-smart)。
+- ART-Pi Smart SDK [Gitee 仓库 ](https://gitee.com/rtthread/ART-Pi-smart)
 
-RT-Thread [社区论坛](https://club.rt-thread.org)。
+- RT-Thread [社区论坛](https://club.rt-thread.org)
+- rt-smart [论坛板块](https://club.rt-thread.org/ask/tag/1339.html )（可以发帖反馈，技术支持） 
+- ART-Pi Smart 官方交流 QQ 群(622828244)
 
-ART-Pi Smart 官方交流 QQ 群(622828244)。
 
 ![ART-Pi Smart 技术交流 QQ 群](documents/art_pi_smart_user_manual/figures/qq_group.png)
 
