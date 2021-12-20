@@ -1243,11 +1243,11 @@ msh />/sd/root/bin/uhttpd.elf -f -p 80 -h /sd/root/var/dist &
 
 ## GDB 在线调试
 
+rt-smart 内核跑起来之后，用户可以对用户 APP 进行源码级调试，并且可以在 VSCode 上进行 gdb 源码级在线调试。
+
 用户可以对用户态应用程序进行源码级调试，这个相当于在内核中植入一个 gdb stub 来调试用户态的应用程序。
 
-rt-smart gdb 调试的基本原理：通过 Kernel 来调试用户 APP。即通过 Kernel 上跑 gdb server 和测试电脑（跑 gdb）配合来一起来，在线调试用户 APP。
-
-可以在 VSCode 上进行 gdb 源码级在线调试，并支持 UART，网络（SSH）的连接方式。
+rt-smart gdb 调试的基本原理：通过 Kernel 来调试用户 APP。即通过 Kernel 上运行 gdb server 和测试电脑（gdb client）配合对用户 APP进行在线调试。
 
 ## VSCocde 调试
 
