@@ -67,13 +67,25 @@
 
 ![Smart工具栏](figures/smart_tool.png) 
 
-您需要注意的是，`下载前`，如果您未设置 Server 的 ip 地址，插件为为您自动定位到 IP 的设置位置，你只需要填写 IP 地址并重新点击 `下载` 即可。
+您需要注意的是：
 
-![ip配置](figures/smart_server_ip.png)
+- windows 系统编译/清理时，如果终端提示
 
-您也可以直接在 .vscode/settings/json 中修改对应的 ip 地址
+  ```
+  'scons' 不是内部或外部命令，也不是可运行的程序
+  ```
 
-![settings.json](figures/smart_settings_json.png)
+  请执行 `pip install scons` ，安装 scons 命令
+
+- `下载前`，如果您未设置 Server 的 ip 地址，插件为为您自动定位到 IP 的设置位置，你只需要填写 IP 地址并重新点击 `下载` 即可。
+
+  ![ip配置](figures/smart_server_ip.png)
+
+  您也可以直接在 .vscode/settings/json 中修改对应的 ip 地址
+
+  ![settings.json](figures/smart_settings_json.png)
+
+  
 
 ## 调试：gdb 在线调试用户应用程序
 
