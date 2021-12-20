@@ -67,7 +67,7 @@ struct rt_touch_info
 
 struct rt_touch_config
 {
-    struct rt_device_pin_mode   irq_pin;       /* Interrupt pin, The purpose of this pin is to notification read data */
+ //   struct rt_device_pin_mode   irq_pin;       /* Interrupt pin, The purpose of this pin is to notification read data */
     char                        *dev_name;     /* The name of the communication device */
     void                        *user_data;
 };
