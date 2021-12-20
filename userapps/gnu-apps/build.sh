@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-libs_arr=( "lua" "zlib"  )
-apps_arr=("uhttpd" "sqlite" )
+libs_arr=( "lua" "zlib" "sdl")
+apps_arr=("uhttpd" "sqlite")
 
 
 function usage(){
