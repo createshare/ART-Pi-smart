@@ -30,8 +30,8 @@ ART-Pi smart 开发板的 SDK 仓库，主要包括 RT-Thread Smart 的源码，
 
 ART-Pi smart  支持 Windows 和 Linux 开发环境，及配套的 VSCode 开发环境。并且支持多种编译方式，例如 scons、make、cmake等。
 
-- VSCode 上开发 rt-smart，包括安装  rt-thread-smart VSCode 插件、新建工程、编译代码等，具体请查阅文档：[RT-Thread Smart for Vscode 快速上手](documents/rt_smart_for_vscode_quick_start/README.md) 。
-- ART-Pi Smart 开发板软硬件资料，以及开发环境（Linux 和 Windows版本）、BSP Demo等，具体请查阅文档：[ART-Pi Smart 用户手册](documents/art_pi_smart_user_manual/README.md) 。
+- VSCode 上开发 rt-smart，包括安装  rt-thread-smart VSCode 插件、新建工程、编译代码等，具体请查阅文档：[RT-Thread Smart for Vscode 快速上手](documents/rt_smart_for_vscode_quick_start/README.md) 
+- ART-Pi Smart 开发板软硬件资料，以及开发环境（Linux 和 Windows版本）、BSP Demo等，具体请查阅文档：[ART-Pi Smart 用户手册](documents/art_pi_smart_user_manual/README.md) 
 
 ## ART-Pi Smart 交流平台
 
